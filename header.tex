@@ -1,0 +1,54 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{geometry}%
+\geometry{margin=0.7in}%
+\usepackage{ragged2e}%
+\usepackage{fancyhdr}%
+%
+\fancypagestyle{header}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+Page date: %
+\linebreak%
+R3%
+}%
+\fancyhead[C]{%
+Company%
+}%
+\fancyhead[R]{%
+Page \thepage\ of \pageref{LastPage}%
+}%
+\fancyfoot[L]{%
+Left Footer%
+}%
+\fancyfoot[C]{%
+Center Footer%
+}%
+\fancyfoot[R]{%
+Right Footer%
+}%
+}%
+%
+\begin{document}%
+\normalsize%
+\pagestyle{header}%
+\begin{minipage}{\textwidth}%
+\centering%
+\begin{Large}%
+\textbf{Title}%
+\end{Large}%
+\linebreak%
+\begin{large}%
+\textbf{As at:{[}'20210222113440', 'gogo520903', '2021{-}09{-}23', '取消已退款', '文英', '0921545125', '', '22', '28人座大中巴', '台南', '台南', '5/18{-}5/19台南嘉義阿里山二日', '28000', '8000', '20000', '是', '否', '童友柏村'{]}}%
+\end{large}%
+\end{minipage}%
+\end{document}
